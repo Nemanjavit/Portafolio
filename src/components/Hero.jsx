@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="shape"></div>
       <div className="overlay"></div>
       <div className="container hero-container">
-        <img src={person} className="profile-img hidden-img" alt="person" />
+        <img src={person} className="hidden-img" alt="person" />
         <img src={person} className="profile-img" alt="person" />
         <div className="text-content">
           <div className="d-flex flex-column info">
