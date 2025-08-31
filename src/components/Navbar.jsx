@@ -20,7 +20,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div className="collapse navbar-collapse menu" id="navbarTogglerDemo02">
           <ul className="navbar-nav me-auto mb-lg-0">
             <li className="nav-item text-center text-sm">
               <a className="nav-link" aria-current="page" href="#">
