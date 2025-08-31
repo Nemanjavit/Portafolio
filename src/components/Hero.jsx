@@ -1,7 +1,7 @@
 import person from "../assets/person2.png";
-import github from "../assets/github.png";
-import linkedIn from "../assets/linkedin.png";
-import email from "../assets/email.png";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { MdAlternateEmail } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -19,13 +19,13 @@ const Hero = () => {
           </div>
           <div className="social">
             <a className="" href="">
-              <img src={github} alt="github icon" />
+              <FaGithub className="social-icon" size={25} />
             </a>
             <a className="" href="">
-              <img src={linkedIn} alt="linkedin icon" />
+              <FaLinkedin className="social-icon" size={25} />
             </a>
             <a className="" href="">
-              <img src={email} alt="email icon" />
+              <MdAlternateEmail className="social-icon" size={25} />
             </a>
           </div>
         </div>

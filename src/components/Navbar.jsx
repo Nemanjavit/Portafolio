@@ -1,12 +1,12 @@
-import logo from "../assets/logo.svg";
+import LogoSvg from "../assets/svg/logoSvg";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg main-nav p-0">
       <div className="container">
-        <div className="w-100 d-flex justify-content-between  py-2">
-          <a className="navbar-brand" href="#">
-            <img src={logo} alt="logo" />
+        <div className="w-100 d-flex justify-content-between">
+          <a className="" href="#">
+            <LogoSvg />
           </a>
           <button
             className="navbar-toggler border-0 shadow-none"
